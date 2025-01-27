@@ -1,9 +1,9 @@
 #include <LiquidCrystal.h>
 
-LiquidCrystal lcd (2,3,9,10,11,12): 
+LiquidCrystal lcd (2,3,9,10,11,12);
 int sensor;
 float temperatura;
-void setup {
+void setup (){
 lcd.begin(16, 2);
 }
 void loop()
